@@ -5,7 +5,7 @@
   "env": {
      "api_id": { "required": true }
      "api_hash" : { "required": true}
-     " bot_token" : { "required": true}
+     "bot_token" : { "required": true}
       
   },
   "formation": {
