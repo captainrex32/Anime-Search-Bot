@@ -1,20 +1,26 @@
 {
   "name": "Anime-Search-Bot", 
-  "description": "A Telegram bot that helps users search anime",
+  "description": "A short description of your Telegram bot's functionality",
+  "keywords": ["telegram", "bot", "python", "other relevant keywords"], 
   "repository": "https://github.com/captainrex32/Anime-Search-Bot", 
   "env": {
-     "api_id": { "required": true }
-     "api_hash" : { "required": true}
-     "bot_token" : { "required": true}
-      
+    "bot_token": {
+      "description": "Your Telegram bot token",
+      "value": "" 
+    "api_id": {
+      "description": "Your Telegram bot token",
+      "value": "" 
+    "api_hash": {
+      "description": "Your Telegram bot token",
+      "value": "" 
+
+
+    } 
   },
   "formation": {
     "worker": { 
       "quantity": 1,
-      "size": "basic" 
+      "size": "eco" 
     } 
-  },
-  "buildpacks": [ 
-    { "url": "heroku/python" } 
-  ]
+  }
 }
