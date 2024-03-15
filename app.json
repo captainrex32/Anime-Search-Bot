@@ -1,26 +1,26 @@
 {
-  "name": "Anime-Search-Bot", 
+  "name": "Anime-Search-Bot",
   "description": "A short description of your Telegram bot's functionality",
-  "keywords": ["telegram", "bot", "python", "other relevant keywords"], 
-  "repository": "https://github.com/captainrex32/Anime-Search-Bot", 
+  "keywords": ["telegram", "bot", "python", "other relevant keywords"],
+  "repository": "https://github.com/captainrex32/Anime-Search-Bot",
   "env": {
     "bot_token": {
       "description": "Your Telegram bot token",
       "value": "" 
+    }, 
     "api_id": {
-      "description": "Your Telegram bot token",
+      "description": "Your Telegram API ID",
       "value": "" 
+    },
     "api_hash": {
-      "description": "Your Telegram bot token",
+      "description": "Your Telegram API hash",
       "value": "" 
-
-
     } 
   },
   "formation": {
     "worker": { 
       "quantity": 1,
-      "size": "eco" 
+      "size": "basic" 
     } 
   }
 }
